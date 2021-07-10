@@ -1,1 +1,163 @@
+/* general */
+body{
+	width: 100%;
+	padding-top: 100px;
+	background-color: #F6F8F9;
+}
+.d-inlineblock{
+	display: inline-block;
+}
+.h2{
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+.index-section{
+	margin: 0 auto;
+	width: 1160px;
+}
 /* fonts */
+.main-font{
+	font-family: 'Helvetica';
+}
+.section-1-font{
+	font-family: 'Sunshiney', cursive;
+}
+/* header */
+.header-wrapper{
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 84;
+	background-color: #F6F8F9;
+}
+.logo{
+	font-size: 13px;
+	vertical-align: middle;
+	color: #FA6980;
+	font-weight: bold;
+	margin-right: 92px;
+}
+.navigation{
+	font-size: 11px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.nav-li{
+	color: #343638;
+	opacity: 50%;
+	font-weight: bold;
+	margin-right: 22px;
+}
+.nav-li-hover-color{
+	color: black;
+	opacity: 100%;
+	font-weight: bolder;
+}
+.nav-icon{
+	vertical-align: middle;
+	margin-left: 40px;
+}
+/* section 1 */
+.section1-div-size{
+	width: 360px;
+	height: 350px;
+	position: relative;
+}
+.section1-p-position{
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
+}
+.section1-div-wrapper{
+	position: relative;
+}
+.section1-text{
+	margin: 66px 40px;
+	color: #A6ADB4;
+}
+.section1-div-time{
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+}
+.section1-time-img-p{
+	vertical-align: middle;
+	font-style: italic;
+	color: #A6ADB4;
+}
+/* section 2 */
+.s2-conainer-1{
+	position: relative;
+	width: 760px;
+	height: 900px;
+	margin-bottom: 37px;
+	vertical-align: top;
+}
+.s2-conainer-1 p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	top: 194px;
+	left: 308px;
+}
+.s2-conainer-2{
+	margin-left: 36px;
+	width: 360px;
+	height: 896px;
+	margin-bottom: 40px;
+	vertical-align: top;
+}
+.s2-ul-li-margin{
+	margin-bottom: 102px;
+}
+/* footer */
+.footer{
+	background-color: #A6ADB4;
+	height: 200px;
+	width: 100%;
+}
+.footer-p{
+	color: #CBD0D3;
+	font-size: 11px;
+	vertical-align: top;
+	margin: 0 165px 105px;
+}
+.footer-ul-li{
+	color: #CBD0D3;
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: top;
+}
+.footer-ul-li li{
+	margin-bottom: 8px;
+}
+.footer-logo{
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 89px;
+	vertical-align: top;
+}
+.footer-navi{
+	margin: 56px 0 60px 142px;
+}
+.footer-icon{
+	vertical-align: top;
+}
+.footer-twit-icon{
+	margin: 0 32px;
+}
+.footer-web-icon{
+	margin-left: 32px;
+}
+.footer-list2{
+	margin: 0 77px;
+}
