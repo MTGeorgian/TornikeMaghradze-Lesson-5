@@ -34,14 +34,14 @@ body{
 	background-color: #F6F8F9;
 }
 .logo{
-	font-size: 13px;
+	font-size: 18px;
 	vertical-align: middle;
 	color: #FA6980;
 	font-weight: bold;
 	margin-right: 92px;
 }
 .navigation{
-	font-size: 11px;
+	font-size: 16px;
 	text-transform: uppercase;
 	vertical-align: middle;
 }
@@ -117,6 +117,13 @@ body{
 }
 .s2-ul-li-margin{
 	margin-bottom: 102px;
+}
+/* chat icon */
+.chat-icon{
+	position: fixed;
+	right: 22px;
+	bottom: 22px;
+	width: 44px;
 }
 /* footer */
 .footer{
